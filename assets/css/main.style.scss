@@ -19,7 +19,7 @@ html
 	 font-family: 'Open Sans', sans-serif;
 	 position: absolute;
 	 height: 100%;
-	 overflow: hidden;
+	 overflow-x: hidden;
 	 background: transparent;
 	 width: 100%;
 
@@ -268,17 +268,25 @@ footer
 
 @media screen and (max-width: 768px) {
 
+html
+{
+	overflow-y: scroll;
+	position: relative;
+}
 
 
-	html
+
+	.start-chapta
 	{
+		height: 700px;
 		position: relative;
-		height: auto;
 	}
 	
 
 	footer
 	{
+		position: relative;
+		padding-bottom: 10px;
 
 	.foot-content
 	{

@@ -11,7 +11,7 @@ html {
   font-family: 'Open Sans', sans-serif;
   position: absolute;
   height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   background: transparent;
   width: 100%; }
 
@@ -160,26 +160,33 @@ footer {
 
 @media screen and (max-width: 768px) {
   html {
-    position: relative;
-    height: auto; }
+    overflow-y: scroll;
+    position: relative; }
 
-  footer .foot-content {
-    width: 100%; }
-    footer .foot-content .logo {
-      width: 100%;
-      float: none;
-      height: 70px;
-      overflow: hidden; }
-      footer .foot-content .logo img {
+  .start-chapta {
+    height: 700px;
+    position: relative; }
+
+  footer {
+    position: relative;
+    padding-bottom: 10px; }
+    footer .foot-content {
+      width: 100%; }
+      footer .foot-content .logo {
+        width: 100%;
         float: none;
-        margin: 0 auto;
-        position: relative;
-        left: 0;
-        right: 0;
-        display: flex;
-        margin: 0 auto; }
-    footer .foot-content .foot-content {
-      width: 100%;
-      float: none; } }
+        height: 70px;
+        overflow: hidden; }
+        footer .foot-content .logo img {
+          float: none;
+          margin: 0 auto;
+          position: relative;
+          left: 0;
+          right: 0;
+          display: flex;
+          margin: 0 auto; }
+      footer .foot-content .foot-content {
+        width: 100%;
+        float: none; } }
 
 /*# sourceMappingURL=main.style.css.map */
