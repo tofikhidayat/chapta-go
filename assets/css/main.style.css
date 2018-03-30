@@ -163,9 +163,14 @@ footer {
     overflow-y: scroll;
     position: relative; }
 
+  body {
+    padding: 0; }
+
   .start-chapta {
     height: 700px;
-    position: relative; }
+    position: relative;
+    padding-left: 20px;
+    padding-right: 20px; }
 
   footer {
     position: relative;
@@ -189,43 +194,56 @@ footer {
         width: 100%;
         float: none; } }
 @media screen and (max-width: 550px) {
+  .container {
+    width: 100%; }
+
+  * {
+    padding-left: 0px !important;
+    padding-right: 0px !important; }
+
   footer {
     position: relative; }
 
-  .start-chapta .chapta-read .chapta-go {
-    width: 40px;
-    height: 40px;
-    box-sizing: border-box;
-    overflow: hidden;
-    border-radius: 100%;
-    border: 0;
-    top: 20px;
-    left: 0;
-    position: absolute;
-    overflow: hidden;
-    vertical-align: middle;
-    bottom: 0;
-    align-items: ceter;
-    vertical-align: middle;
-    color: #fff; }
-  .start-chapta .chapt {
-    background: transparent;
-    margin: 0 auto;
-    padding: 0px 0px;
-    position: relative;
-    align-items: center;
-    overflow: hidden;
-    justify-content: center; }
-    .start-chapta .chapt .g-recaptcha {
-      display: auto;
-      right: 0;
-      width: 100%;
-      left: 0;
-      margin: 0 auto; }
-      .start-chapta .chapt .g-recaptcha div {
-        width: 100%; }
-
-  .rc-anchor-light {
-    display: none !important; } }
+  .start-chapta {
+    padding-left: 0;
+    padding-right: 0; }
+    .start-chapta .bg-chapta {
+      overflow: hidden;
+      padding: 0;
+      box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0); }
+    .start-chapta .chapta-read {
+      padding: 0; }
+      .start-chapta .chapta-read .chapta-go {
+        width: 40px;
+        height: 40px;
+        box-sizing: border-box;
+        overflow: hidden;
+        border-radius: 100%;
+        border: 0;
+        top: 20px;
+        left: 0;
+        position: absolute;
+        overflow: hidden;
+        vertical-align: middle;
+        bottom: 0;
+        align-items: ceter;
+        vertical-align: middle;
+        color: #fff; }
+    .start-chapta .chapt {
+      background: transparent;
+      margin: 0 auto;
+      padding: 0px 0px;
+      position: relative;
+      align-items: center;
+      overflow: hidden;
+      justify-content: center; }
+      .start-chapta .chapt .g-recaptcha {
+        display: auto;
+        right: 0;
+        width: 100%;
+        left: 0;
+        margin: 0 auto; }
+        .start-chapta .chapt .g-recaptcha div {
+          width: 100%; } }
 
 /*# sourceMappingURL=main.style.css.map */
