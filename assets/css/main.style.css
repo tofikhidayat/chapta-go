@@ -192,90 +192,38 @@ footer {
   footer {
     position: relative; }
 
-  .start-chapta {
-    background: #fff;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    display: block;
-    overflow: hidden;
-    padding: 10px;
+  .start-chapta .chapta-read .chapta-go {
+    width: 40px;
+    height: 40px;
     box-sizing: border-box;
-    top: 0;
+    overflow: hidden;
+    border-radius: 100%;
+    border: 0;
+    top: 20px;
     left: 0;
-    right: 0;
-    bottom: 0;
-    position: relative;
-    margin: 0 auto;
+    position: absolute;
+    overflow: hidden;
     vertical-align: middle;
+    bottom: 0;
+    align-items: ceter;
+    vertical-align: middle;
+    color: #fff; }
+  .start-chapta .chapt {
+    background: transparent;
+    margin: 0 auto;
+    padding: 0px 0px;
+    position: relative;
     align-items: center;
-    justify-content: center;
-    align-conten: ceter; }
-    .start-chapta .bg-chapta {
-      box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
-      border-radius: 10px;
-      padding: 20px 10px;
-      box-sizing: border-box;
-      overflow: hidden; }
-      .start-chapta .bg-chapta .chapta-header {
-        padding: 0 20px;
-        padding-top: 30px;
-        padding-bottom: 20px; }
-        .start-chapta .bg-chapta .chapta-header p {
-          text-align: center;
-          margin: 0 auto;
-          font-size: 16px;
-          color: #929292; }
-    .start-chapta .chapta-read {
-      height: 100px;
-      background: #fff;
-      padding: 0px;
-      overflow: visible;
-      box-sizing: border-box;
-      border-radius: 10px;
-      align-items: center;
-      justify-content: center;
-      align-conten: ceter;
-      overflow: visible;
+    overflow: hidden;
+    justify-content: center; }
+    .start-chapta .chapt .g-recaptcha {
       display: auto;
-      top: 0;
-      position: relative;
+      right: 0;
+      width: 100%;
       left: 0;
-      bottom: 0;
-      vertical-align: middle;
-      padding-bottom: 30px; }
-      .start-chapta .chapta-read .chapta-go {
-        width: 40px;
-        height: 40px;
-        box-sizing: border-box;
-        overflow: hidden;
-        border-radius: 100%;
-        border: 0;
-        top: 20px;
-        left: 0;
-        position: absolute;
-        overflow: hidden;
-        vertical-align: middle;
-        bottom: 0;
-        align-items: ceter;
-        vertical-align: middle;
-        color: #fff; }
-    .start-chapta .chapt {
-      background: transparent;
-      margin: 0 auto;
-      padding: 0px 0px;
-      position: relative;
-      align-items: center;
-      overflow: hidden;
-      justify-content: center; }
-      .start-chapta .chapt .g-recaptcha {
-        display: auto;
-        right: 0;
-        width: 100%;
-        left: 0;
-        margin: 0 auto; }
-        .start-chapta .chapt .g-recaptcha div {
-          width: 100%; }
+      margin: 0 auto; }
+      .start-chapta .chapt .g-recaptcha div {
+        width: 100%; }
 
   .rc-anchor-light {
     display: none !important; } }
