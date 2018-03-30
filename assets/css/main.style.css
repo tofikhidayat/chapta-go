@@ -1,0 +1,170 @@
+.hidden {
+  display: none !important;
+  opacity: 0; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-family: 'Open Sans', sans-serif; }
+
+.container {
+  width: 90%;
+  overflow: hidden;
+  clear: both;
+  margin: 0 auto; }
+
+.border-space {
+  height: 1px;
+  width: 100%;
+  background: #E5E5E5; }
+
+.start-chapta {
+  background: #fff;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  display: block;
+  display: flex;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: relative;
+  margin: 0 auto;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  align-conten: ceter; }
+  .start-chapta .bg-chapta {
+    box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px 20px; }
+    .start-chapta .bg-chapta .chapta-header {
+      padding: 0 20px;
+      padding-top: 30px;
+      padding-bottom: 20px; }
+      .start-chapta .bg-chapta .chapta-header p {
+        text-align: center;
+        margin: 0 auto;
+        font-size: 16px;
+        color: #929292; }
+  .start-chapta .chapta-read {
+    height: 100px;
+    background: #fff;
+    padding: 10px;
+    overflow: visible;
+    box-sizing: border-box;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    align-conten: ceter;
+    overflow: visible;
+    display: flex;
+    top: 0;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    vertical-align: middle;
+    padding-bottom: 30px; }
+    .start-chapta .chapta-read .chapta-go {
+      width: 40px;
+      height: 40px;
+      box-sizing: border-box;
+      overflow: hidden;
+      border-radius: 100%;
+      border: 0;
+      top: 20px;
+      left: 0;
+      position: absolute;
+      overflow: hidden;
+      vertical-align: middle;
+      bottom: 0;
+      align-items: ceter;
+      vertical-align: middle;
+      color: #fff;
+      animation: key-animate .9s ease infinite;
+      font-size: 25px;
+      background: #096bab;
+      background: -moz-linear-gradient(left, #096bab 0%, #3da0d9 100%);
+      background: -webkit-gradient(left top, right top, color-stop(0%, #096bab), color-stop(100%, #3da0d9));
+      background: -webkit-linear-gradient(left, #096bab 0%, #3da0d9 100%);
+      background: -o-linear-gradient(left, #096bab 0%, #3da0d9 100%);
+      background: -ms-linear-gradient(left, #096bab 0%, #3da0d9 100%);
+      background: linear-gradient(to right, #096bab 0%, #3da0d9 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#096bab', endColorstr='#3da0d9', GradientType=1 ); }
+@keyframes key-animate {
+  0% {
+    left: -50px; }
+  50% {
+    left: -70px; }
+  100% {
+    left: -50px; } }
+  .start-chapta .chapt {
+    background: transparent;
+    margin: 0 auto;
+    padding: 0px 0px;
+    position: relative;
+    align-items: center;
+    overflow: visible;
+    justify-content: center; }
+    .start-chapta .chapt .g-recaptcha {
+      display: flex;
+      right: 0;
+      left: 0;
+      margin: 0 auto; }
+
+footer {
+  display: block;
+  width: 100%;
+  clear: both; }
+  footer .foot-content {
+    width: 700px;
+    margin: 0 auto; }
+    footer .foot-content .foot-data {
+      padding-top: 30px; }
+    footer .foot-content .logo {
+      width: 200px;
+      float: left;
+      overflow: hidden; }
+      footer .foot-content .logo img {
+        width: 250px;
+        object-fit: cover;
+        height: 80px;
+        position: relative;
+        left: -30px;
+        top: -25px; }
+    footer .foot-content p {
+      text-align: center;
+      margin: 0 auto;
+      font-size: 16px;
+      color: #929292; }
+      footer .foot-content p a {
+        text-decoration: underline;
+        color: #636363; }
+
+@media screen and (max-width: 768px) {
+  footer .foot-content {
+    width: 100%; }
+    footer .foot-content .logo {
+      width: 100%;
+      float: none;
+      height: 70px;
+      overflow: hidden; }
+      footer .foot-content .logo img {
+        float: none;
+        margin: 0 auto;
+        position: relative;
+        left: 0;
+        right: 0;
+        display: flex;
+        margin: 0 auto; }
+    footer .foot-content .foot-content {
+      width: 100%;
+      float: none; } }
+
+/*# sourceMappingURL=main.style.css.map */
