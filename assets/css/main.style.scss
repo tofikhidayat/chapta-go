@@ -233,13 +233,13 @@ footer
 			overflow: hidden;
 			img
 			{
-			width:250px;
+			width:230px;
 			object-fit:cover;
 
-			height: 80px;
+			height: 60px;
 			position: relative;
 			left: -30px;
-			top: -25px;
+			top: -20px;
 			}
 
 
@@ -250,7 +250,7 @@ footer
 			{
 				text-align: center;
 				margin: 0 auto;
-				font-size: 16px;
+				font-size: 14px;
 				color: #929292;
 
 				a
@@ -295,7 +295,7 @@ html
 		{
 			width: 100%;
 			float: none;
-			height: 70px;
+			height: 60px;
 			overflow: hidden;
 
 			img
@@ -316,4 +316,164 @@ html
 			float: none;
 		}
 	}}
+}
+
+
+@media screen and (max-width: 550px)
+{
+
+
+footer
+{
+	position: relative;
+}
+
+
+.start-chapta
+{
+	background: #fff;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	display: block;
+	overflow: hidden;
+	padding: 10px;
+	box-sizing:border-box;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: relative;
+	margin: 0 auto;
+	vertical-align: middle;
+	align-items:center;
+	justify-content:center;
+	align-conten:ceter;
+.bg-chapta
+{
+
+	box-shadow: 0px 0px 15px 1px rgba(0,0,0,0.1);
+	border-radius: 10px;
+	padding: 20px 10px;
+	box-sizing:border-box;	
+	overflow: hidden;
+
+
+	.chapta-header
+	{
+		padding: 0 20px;
+		padding-top: 30px;
+		padding-bottom: 20px;
+
+		p
+		{
+			text-align: center;
+			margin: 0 auto;
+			font-size: 16px;
+			color: #929292;
+		}
+	}
+}
+
+
+
+	.chapta-read
+	{
+		height: 100px;
+		background: #fff;
+		padding:  0px;
+		overflow: visible;
+		box-sizing:border-box;
+		border-radius: 10px;
+	align-items:center;
+	justify-content:center;
+	align-conten:ceter;
+	overflow: visible;
+	display: auto;
+	top: 0;
+	position: relative;
+	left: 0;
+	bottom: 0;
+	vertical-align: middle;
+	padding-bottom: 30px;
+
+
+
+	.chapta-go
+	{
+		width: 40px;
+		height: 40px;
+		box-sizing:border-box;
+		overflow: hidden;
+		border-radius: 100%;
+		border:0;
+		top: 20px;
+		left: 0;
+		position: absolute;
+		overflow: hidden;
+		vertical-align: middle;
+		bottom: 0;
+		align-items:ceter;
+		vertical-align: middle;
+		color: #fff;
+
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	}
+
+	.chapt
+	{
+		background: transparent;
+		margin: 0 auto;
+		padding: 0px 0px;
+		position: relative;
+		align-items:center;
+		overflow: hidden;
+		justify-content:center;
+
+
+
+
+		.g-recaptcha
+	{
+		display: auto;
+		right: 0;
+		width:100%;
+		left: 0;
+		margin: 0 auto;
+		div
+		{
+			width: 100%;
+		}
+
+	}
+	}
+
+
+
+
+
+///////////////////////////////
+
+}
+
+.rc-anchor-light
+{
+	display: none !important;	
+}
+
 }
