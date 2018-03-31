@@ -334,7 +334,9 @@ body
 
 footer
 {
-	position: relative;
+	position: fixed;
+
+
 }
 
 
@@ -444,12 +446,50 @@ padding: 0;
 
 }
 
+
+@media screen and (max-width: 441px)
+{
+	
+	.start-chapta
+	{
+		height: 550px;
+			padding-left: 9px ;
+	padding-right: 9px;
+	}
+
+	
+
+}
+
 @media screen and (max-width: 375px)
 {
-	footer
+	
+	.start-chapta
 	{
-		position: absolute;
-		bottom: 0;
-		z-index: 99999;
+		height: 620px;
+	}
+}
+@media screen and (max-width: 360px)
+{
+	
+	.start-chapta
+	{
+	height: 500px;
+	}
+}
+@media screen and (max-width: 320px)
+{
+	.start-chapta
+	{
+	height: 450px;
+	padding-left: 9px ;
+	padding-right: 9px;
+
+
+	.bg-chapta
+	{
+		padding-left: 1px;
+		padding-right: 1px;
+	}
 	}
 }

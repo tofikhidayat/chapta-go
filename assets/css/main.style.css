@@ -197,7 +197,7 @@ footer {
     width: 100%; }
 
   footer {
-    position: relative; }
+    position: fixed; }
 
   .start-chapta {
     padding-left: 0;
@@ -243,10 +243,24 @@ footer {
         margin: 0 auto; }
         .start-chapta .chapt .g-recaptcha div {
           width: 100%; } }
+@media screen and (max-width: 441px) {
+  .start-chapta {
+    height: 550px;
+    padding-left: 9px;
+    padding-right: 9px; } }
 @media screen and (max-width: 375px) {
-  footer {
-    position: absolute;
-    bottom: 0;
-    z-index: 99999; } }
+  .start-chapta {
+    height: 620px; } }
+@media screen and (max-width: 360px) {
+  .start-chapta {
+    height: 500px; } }
+@media screen and (max-width: 320px) {
+  .start-chapta {
+    height: 450px;
+    padding-left: 9px;
+    padding-right: 9px; }
+    .start-chapta .bg-chapta {
+      padding-left: 1px;
+      padding-right: 1px; } }
 
 /*# sourceMappingURL=main.style.css.map */
